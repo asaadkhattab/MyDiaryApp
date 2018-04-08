@@ -2,16 +2,16 @@
 //CONNECT TO DATABASE USING MYSQLI
 //(CONNECTION, USERNAME, PASSWORD, NAME OF DATABASE)
 
-$database['db_host'] = "localhost";
-$database['db_user'] = "root";
-$database['db_pass'] = "";
-$database['db_name'] = "mydiaryapp";
+$database['database_host'] = "localhost";
+$database['database_user'] = "root";
+$database['database_pass'] = "";
+$database['database_name'] = "mydiaryapp";
 
 foreach($database as $key => $value) {
   define(strtoupper($key), $value);
 }
 
-$connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+$connection = mysqli_connect(DATABASE_HOST, DATABASE_USER, DATABASE_PASS, DATABASE_NAME);
 if(!$connection)
 {
   die("Cannot connect to the database " . mysqli_error($connection));
