@@ -1,3 +1,4 @@
+<?php include "include/database.php";?>
 <?php include "include/header.php"; ?>
 
 <!-- Navigation -->
