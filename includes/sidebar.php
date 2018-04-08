@@ -6,7 +6,7 @@
     <!-- Blog Search Well -->
     <div class="well">
         <h4>Diary Search</h4>
-        <form class="" action="includes/search.php" method="post">
+        <form class="" action="search.php" method="post">
         <div class="input-group">
             <input name="search" type="text" class="form-control">
             <span class="input-group-btn">

@@ -1,6 +1,5 @@
 <?php include "includes/database.php"; ?>
 <?php include "includes/header.php"; ?>
-<?php include "includes/search.php"; ?>
 
 <!-- Navigation -->
 <?php include "includes/navigation.php" ?>
@@ -26,7 +25,7 @@
 
                 $count = mysqli_num_rows($search_query);
                 if($count == 0) {
-                  echo "<h1>Not available </h1>"
+                  echo "<h1>Not available </h1>";
                 } else {
 
 
