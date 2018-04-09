@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 
     <div id="wrapper">
-<?php if($connection) echo "Connected" ?>
+
 <!-- Navigation -->
 <?php include "includes/navigation.php" ?>
 
@@ -18,6 +18,21 @@
                             <small>Author</small>
                         </h1>
 
+                        <div class="col-xs-6">
+                          <form class="" action="index.html" method="post">
+
+                            <label for="cat_title">Categories</label>
+                            <div class="form-group">
+                              <input type="text" name="cat_title" value="" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                              <input type="submit" name="submit" value="Add Category" class="btn btn-warning">
+                            </div>
+
+                          </form>
+                        </div>
+                        </form>
                     </div>
                 </div>
                 <!-- /.row -->
