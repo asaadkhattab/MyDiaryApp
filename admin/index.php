@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 
     <div id="wrapper">
-<?php if($connection) echo "Connected" ?>
+
 <!-- Navigation -->
 <?php include "includes/navigation.php" ?>
 
